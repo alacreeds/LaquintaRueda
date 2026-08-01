@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto — La Quinta Rueda</title>
+  <meta name="description" content="Solicita transporte de contenedores o espacio en nuestro truck yard en Bajos de Haina, San Cristóbal, República Dominicana.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a href="index.html" class="brand">
+        <span class="brand-mark"><span>LQR</span></span>
+        <span class="brand-text">La Quinta Rueda<small>Transporte &amp; Logística de Contenedores</small></span>
+      </a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      <nav class="main-nav">
+        <a href="index.html">Quiénes somos</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="contacto.html" class="active">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" style="padding-bottom: 40px;">
+    <div class="hero-inner">
+      <div class="manifest">Manifiesto · <b>Contacto</b> · Respuesta en 24h laborables</div>
+      <h1>Coordinemos tu <em>próximo movimiento</em></h1>
+      <p class="lede">Cuéntanos qué necesitas transportar o almacenar y te contactamos con una cotización.</p>
+    </div>
+  </section>
+
+  <div class="ruler" aria-hidden="true"></div>
+
+  <section class="block">
+    <div class="container">
+      <div class="form-wrap">
+        <div class="form-panel">
+          <p class="eyebrow">Solicitud de servicio</p>
+          <form id="contact-form" novalidate>
+            <div class="field">
+              <label for="nombre">Nombre completo *</label>
+              <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="field">
+              <label for="empresa">Empresa / Naviera</label>
+              <input type="text" id="empresa" name="empresa">
+            </div>
+            <div class="field">
+              <label for="email">Correo electrónico *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="field">
+              <label for="telefono">Teléfono</label>
+              <input type="tel" id="telefono" name="telefono" placeholder="+1 (809) 000-0000">
+            </div>
+            <div class="field">
+              <label for="servicio">Servicio de interés</label>
+              <select id="servicio" name="servicio">
+                <option value="">Selecciona una opción</option>
+                <option value="Transporte de contenedores">Transporte de contenedores</option>
+                <option value="Cargas especiales">Cargas especiales</option>
+                <option value="Truck yard / almacenamiento">Truck yard / almacenamiento</option>
+                <option value="Otro">Otro</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="mensaje">Mensaje *</label>
+              <textarea id="mensaje" name="mensaje" required placeholder="Cuéntanos el origen, destino y tipo de carga..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-solid">Enviar solicitud</button>
+            <p id="form-status"></p>
+            <p class="form-note">Este sitio no tiene servidor propio: al enviar, se abrirá tu programa de correo con el mensaje ya redactado hacia info@laquintarueda.com.do. Si prefieres, escríbenos directo por WhatsApp.</p>
+          </form>
+        </div>
+
+        <div class="form-panel info">
+          <p class="eyebrow">Datos de contacto</p>
+          <ul class="info-list">
+            <li>
+              <span class="k">Ubicación</span>
+              <span class="v">Bajos de Haina, San Cristóbal<small>República Dominicana</small></span>
+            </li>
+            <li>
+              <span class="k">Teléfono</span>
+              <span class="v">+1 (809) 000-0000<small>Lunes a viernes, 8:00 am – 5:00 pm</small></span>
+            </li>
+            <li>
+              <span class="k">Correo</span>
+              <span class="v">info@laquintarueda.com.do</span>
+            </li>
+            <li>
+              <span class="k">Puertos</span>
+              <span class="v">DP World · MARDON<small>Operación directa en muelle</small></span>
+            </li>
+          </ul>
+
+          <a href="https://wa.me/18090000000" target="_blank" rel="noopener" class="whatsapp-btn">💬 Escribir por WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <h4>La Quinta Rueda</h4>
+        <p>Transporte y logística de contenedores para navieras, importadores y exportadores en República Dominicana.</p>
+      </div>
+      <div>
+        <h4>Navegación</h4>
+        <a href="index.html">Quiénes somos</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <p>📍 Bajos de Haina, San Cristóbal, RD</p>
+        <p>📞 +1 (809) 000-0000</p>
+        <p>✉️ info@laquintarueda.com.do</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 La Quinta Rueda</span>
+      <span>Puerto de Haina · República Dominicana</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
