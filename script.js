@@ -78,9 +78,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Como el sitio es estático (sin backend), abrimos el cliente de correo
       // del usuario con todos los campos ya redactados.
-      window.location.href = `mailto:info@laquintarueda.com.do?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:servicios@laquintarueda.com.do?subject=${subject}&body=${body}`;
 
-      showStatus('Se abrió tu cliente de correo con el mensaje redactado. Si no se abre automáticamente, escríbenos directo a info@laquintarueda.com.do o por WhatsApp.', false);
+      showStatus('Se abrió tu cliente de correo con el mensaje redactado. Si no se abre automáticamente, escríbenos directo a servicios@laquintarueda.com.do o por WhatsApp.', false);
       form.reset();
     });
   }
